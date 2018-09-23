@@ -1,0 +1,32 @@
+{
+  "array": [
+    {
+      "id": 0,
+      "url": "http://rodantnyreyes.com/images/shuttle.jpg",
+      "selected": true,
+      "title": "Where's the Shuttle?",
+      "description": [ "Where's the Shuttle is a web application that allows William Paterson University students track the current location of all four campus shuttle buses."]
+    },
+    {
+      "id": 1,
+      "url": "http://rodantnyreyes.com/images/img3.jpg",
+      "selected": false,
+      "title": "Online Portfolio",
+      "description":[ "This page! A responsive website built with ReactJS. The site's content is passed in as JSON data, which generates auto-generating components for easy maintenance.  I have seen various personal portfolio websites throughout the years. When I set out to create my very own personal porfolio, there were three goals that I wanted: ", "<br/>", "lll"]
+    },
+    {
+      "id": 2,
+      "url": "http://rodantnyreyes.com/images/img4.jpg",
+      "selected": false,
+      "title": "HexBinDec",
+      "description": ["para1","para2"]
+    },
+    {
+      "id": 3,
+      "url": "http://rodantnyreyes.com/images/job.jpg",
+      "selected": false,
+      "title": "Professional Experience",
+      "description": ["project info here"]
+    }
+  ]
+}
