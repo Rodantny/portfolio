@@ -13,7 +13,7 @@ class intro extends Component {
                 <a> Greater New York City Area</a>
 
                 <div className="icons">
-                        <a href="https://www.linkedin.com/in/rodantny/"><i className="fab fa-linkedin-square" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/in/rodantny/"><i className="fab fa-linkedin-square" ></i></a>
                          <a href="https://github.com/Rodantny"><i className="fab fa-github"></i></a>
                         <a href="mailto:rodantnyreyes@gmail.com"><i className="fas fa-envelope"></i></a>
                 </div>

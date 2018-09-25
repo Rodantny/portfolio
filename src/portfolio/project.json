@@ -5,28 +5,52 @@
       "url": "http://rodantnyreyes.com/images/shuttle.jpg",
       "selected": true,
       "title": "Where's the Shuttle?",
-      "description": [ "Where's the Shuttle is a web application that allows William Paterson University students track the current location of all four campus shuttle buses."]
+      "description": [ "Where's the Shuttle is a web application that allows William Paterson University students track the current location of all four campus shuttle buses."],
+      "technology": [ ],
+      "techology_split": true,
+      "fontend":[ "ReactJs", "HTML/CSS", "Bootstrap Framework"],
+      "backend":[ "Python", "Django Framework","PostgreSQL", "RESTapi" ],
+      "external_link":[
+        {"title":"View Project","icon":"fas fa-link", "url":"http://wpushuttle.com/"},
+        {"title":"View Code","icon":"fab fa-github", "url":"https://github.com/Rodantny/wpushuttle"}
+      ]
     },
     {
       "id": 1,
       "url": "http://rodantnyreyes.com/images/img3.jpg",
       "selected": false,
       "title": "Online Portfolio",
-      "description":[ "This page! A responsive website built with ReactJS. The site's content is passed in as JSON data, which generates auto-generating components for easy maintenance.  I have seen various personal portfolio websites throughout the years. When I set out to create my very own personal porfolio, there were three goals that I wanted: ", "<br/>", "lll"]
+      "description":[ "This page! A responsive website built with ReactJS. The site's content is passed in as JSON data, which generates auto-generating components for easy maintenance.  I have seen various personal portfolio websites throughout the years. When I set out to create my very own personal porfolio, there were three goals that I wanted: ", "next para"],
+      "technology": [ "ReactJs", "HTML/CSS"],
+      "techology_split": false,
+      "external_link":[
+        {"title":"View Project","icon":"fas fa-link", "url":"http://rodantnyreyes.com/"},
+        {"title":"View Code","icon":"fab fa-github", "url":"https://github.com/Rodantny/portfolio"}
+      ]
     },
     {
       "id": 2,
       "url": "http://rodantnyreyes.com/images/img4.jpg",
       "selected": false,
       "title": "HexBinDec",
-      "description": ["para1","para2"]
+      "description": ["Simple user friendly Hexadecimal/Binary/Decimal converter written in Bootstrap and JavaScript.",
+        "This is a small project that was created in the summer of 2016. I would love to casually revisit this project and add more features. Such as negative numbers and a mobile friendly design. "],
+      "technology": [ "JavaScript", "HTML/CSS"],
+      "techology_split": false,
+      "external_link":[
+        {"title":"View Project","icon":"fas fa-link", "url":"http://hexadecimalconverter.com/"},
+        {"title":"View Code","icon":"fab fa-github", "url":"https://github.com/Rodantny/HexBinDec"}
+      ]
     },
     {
       "id": 3,
       "url": "http://rodantnyreyes.com/images/job.jpg",
       "selected": false,
       "title": "Professional Experience",
-      "description": ["project info here"]
+      "description": ["project info here"],
+      "technology": [ ],
+      "techology_split": false,
+      "external_link":[]
     }
   ]
 }
