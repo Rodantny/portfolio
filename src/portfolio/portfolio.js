@@ -141,7 +141,7 @@ class Description extends Component {
         return (
             <div>
                 {this.props.data.map(function(paragraph, idx){
-                    return (<a id={idx}>{paragraph}<br/><br/></a>)
+                    return (<a id={idx}>{paragraph}<br/></a>)
                 })}
             </div>
         )

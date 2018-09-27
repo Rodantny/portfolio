@@ -25,7 +25,7 @@ class about extends Component {
                         <br/><br/>
 
                         <a id="about_title" id='contact'><b>Contact Me</b></a><br/>
-                        <a> Need to get in contact with me? Click on one of the awesome icons below to get my Email, Linkedin, Github, and even my Resume.</a><br/>
+                        <a> Looking to get in contact with me? Click on one of the awesome icons below to get my Email, Linkedin, Github, and even my Resume.</a><br/>
                         <div className="icons">
                             <a href="mailto:rodantnyreyes@gmail.com"><i className="fas fa-envelope"></i></a>
                             <a href="https://www.linkedin.com/in/rodantny/"><i className="fab fa-linkedin-square" ></i></a>

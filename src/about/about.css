@@ -16,9 +16,6 @@
     color: #F3F3F3;
 }
 
-#about_image{
-    padding-right: 40px;
-}
 
 @media only screen and (max-width: 1000px) {
     #about_image{
@@ -26,6 +23,10 @@
     }
 }
 
+.about_text{
+    padding: 20px !important;
+
+}
 
 #about_title{
     font-size: 25px;
