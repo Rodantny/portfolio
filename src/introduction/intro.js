@@ -8,7 +8,7 @@ class intro extends Component {
             <div className="intro" >
 
                 <img class="img-fluid rounded-circle img-circle" src="/images/me.jpg" alt='Rod'/><br></br>
-                <a id="MyName">Rodantny Reyes</a><br></br>
+                <a id="MyName">Rodantny J. Reyes</a><br></br>
                 <a>Software Engineer</a><br></br>
                 <a> Greater New York City Area</a>
 

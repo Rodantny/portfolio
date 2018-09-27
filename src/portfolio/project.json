@@ -2,7 +2,7 @@
   "array": [
     {
       "id": 0,
-      "url": "http://rodantnyreyes.com/images/shuttle.jpg",
+      "url": "/images/project/shuttle.jpg",
       "selected": true,
       "title": "Where's the Shuttle?",
       "description": [ "Where's the Shuttle is a web application that allows William Paterson University students track the current location of all four campus shuttle buses.", "Click View Code learn more about this project."],
@@ -17,7 +17,7 @@
     },
     {
       "id": 1,
-      "url": "http://rodantnyreyes.com/images/img3.jpg",
+      "url": "/images/project/portfolio.jpg",
       "selected": false,
       "title": "Online Portfolio",
       "description":[ "This page! A responsive website built with ReactJS. The site's content is passed in as JSON data, which generates auto-generating components for easy maintenance. ", "Click View Code learn more about this project."],
@@ -30,7 +30,7 @@
     },
     {
       "id": 2,
-      "url": "http://rodantnyreyes.com/images/img4.jpg",
+      "url": "/images/project/hexbindec.jpg",
       "selected": false,
       "title": "HexBinDec",
       "description": ["Simple user friendly Hexadecimal/Binary/Decimal converter written in Bootstrap and JavaScript.", "Click View Code learn more about this project."],
@@ -43,10 +43,10 @@
     },
     {
       "id": 3,
-      "url": "http://rodantnyreyes.com/images/job.jpg",
+      "url": "/images/project/wpu.jpg",
       "selected": false,
       "title": "Professional Experience",
-      "description": ["project info here"],
+      "description": ["Coming Soon..."],
       "technology": [ ],
       "techology_split": false,
       "external_link":[]
