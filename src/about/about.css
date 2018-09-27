@@ -1,13 +1,53 @@
-.aboutme{
-    padding-top:4%;
-}
-
 
 .about{
+    font-family: 'Crimson Text', serif;
+    color: #161415;
+    padding-top:3%;
     text-align: left;
+}
+
+.about a{
+    font-size: 20px;
+}
+
+.about a:hover{
+    text-shadow: 0px;
+    text-decoration: none;
+    color: #F3F3F3;
 }
 
 #about_title{
     text-align: center;
     font-size: 30px;
+}
+
+.contact_icon{
+    border: 1px solid #161415;
+    color: #161415 ;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin:4px;
+    background-color:#F3F3F3;
+    border-radius: 5px;
+    text-shadow: 0px;
+    font-family: serif;
+    letter-spacing: 1px;
+}
+
+.contact_icon a{
+    text-shadow: 0px;
+    text-decoration: none;
+}
+
+.contact_icon i{
+    border: 1px solid EB520E;
+    color: #161415;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin:0px;
+    background-color:#F3F3F3;
 }

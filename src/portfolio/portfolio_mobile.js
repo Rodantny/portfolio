@@ -3,7 +3,7 @@ import React from "react";
 import './portfolio.css';
 import Projects from './project.json';
 
-class portfolio extends Component {
+class portfolio_mobile extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -30,13 +30,13 @@ class portfolio extends Component {
         return (
             <div className="portfolio"  id="d-wrapper" >
 
-                    <div className="zig-zag-bottom zig-zag-top"  >
-                        <div className="container">
-                            <Navigation data={this.state.project}/>
-
-                        </div>
+                <div className="zig-zag-bottom zig-zag-top"  >
+                    <div className="container">
+                        <Navigation data={this.state.project}/>
 
                     </div>
+
+                </div>
 
             </div>
 
@@ -70,41 +70,22 @@ class Navigation extends Component {
     }
 
     render() {
-        var current_project_id = this.state.current_project;
-        var project = this.state.data[current_project_id];
-
         return (
             <div>
-                <div className="row" id="project_select">
-                    {this.state.data.map((data,i) => (
-                        <div className="col-md-3 col-sm-6 mb-4">
+                {this.state.data.map((project,i) => (
+                    <div>
+                        <h1><b>{project.title}</b></h1>
 
-                            <div id="box">
-                                <a onClick={(e) => this.handleClick(e, data.id)}>
-                                    <img alt='project' className={data.selected? ' img-fluid project_select_card selected': ' img-fluid project_select_card not_selected' }
-                                         src={data.url}/>
-                                </a>
+                        <Description data={project.description}/>
 
-                            </div>
+                        <TechButton data={project.technology}/>
+                        {project.techology_split ? <TechButton data={project.fontend} stack='Frontend:'/> : ''}
+                        {project.techology_split ? <TechButton data={project.backend} stack='Backend:'/> : ''}
 
-                            {data.selected? <i className="fas fa-caret-up" id="arrow"/>: ''}
-
-                        </div>
-                    ))}
-
-                </div>
-
-                <div id='project_details'>
-                    <h1><b>{project.title}</b></h1>
-
-                    <Description data={project.description}/>
-
-                    <TechButton data={project.technology}/>
-                    {project.techology_split ?    <TechButton data={project.fontend} stack='Frontend:'/> : ''}
-                    {project.techology_split ?    <TechButton data={project.backend} stack='Backend:'/> : ''}
-
-                    <ExternalButton data={project.external_link}/>
-                </div>
+                        <ExternalButton data={project.external_link}/>
+                        <hr/>
+                    </div>
+                ))}
             </div>
         )
     }
@@ -148,4 +129,4 @@ class Description extends Component {
     }
 }
 
-export default portfolio ;
+export default portfolio_mobile;
