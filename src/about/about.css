@@ -16,9 +16,25 @@
     color: #F3F3F3;
 }
 
+#about_image{
+    padding-right: 40px;
+}
+
+@media only screen and (max-width: 1000px) {
+    #about_image{
+        display:none
+    }
+}
+
+
 #about_title{
-    text-align: center;
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#contact{
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .contact_icon{
@@ -50,4 +66,8 @@
     display: inline-block;
     margin:0px;
     background-color:#F3F3F3;
+}
+
+.copyright{
+    text-align: center;
 }

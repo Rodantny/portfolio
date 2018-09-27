@@ -7,10 +7,12 @@ class about extends Component {
         return (
             <div class="about">
                 <div className='container'>
-                    <div className='col-lg-4'>
-                        <img src='/images/me.png' />
+
+                    <div className="row no-gutters">
+                    <div class="col-auto" >
+                        <img id='about_image' src='/images/me.png' />
                     </div>
-                    <div className="col-lg-8">
+                    <div className="col about_text">
 
                         <br></br>
                         <a id="about_title">About Me</a><br/>
@@ -21,17 +23,23 @@ class about extends Component {
                             Bootstrap, JavaScript, and more!
                         </a>
                         <br/><br/>
-                        <a id="about_title">Contact Me</a><br/>
-                        <a> Need to get in contact with me? Click on one of the cool icons below to get my Email, Linkedin, Github, and even my Resume.</a><br/>
+
+                        <a id="about_title" id='contact'><b>Contact Me</b></a><br/>
+                        <a> Need to get in contact with me? Click on one of the awesome icons below to get my Email, Linkedin, Github, and even my Resume.</a><br/>
                         <div className="icons">
+                            <a href="mailto:rodantnyreyes@gmail.com"><i className="fas fa-envelope"></i></a>
                             <a href="https://www.linkedin.com/in/rodantny/"><i className="fab fa-linkedin-square" ></i></a>
                             <a href="https://github.com/Rodantny"><i className="fab fa-github"></i></a>
-                            <a href="mailto:rodantnyreyes@gmail.com"><i className="fas fa-envelope"></i></a>
+                            <a href="https://drive.google.com/file/d/1nJ9A_fD7TfZuw-fT4Lm3y0lObxvbpiG3/view?usp=sharing"><i className="fas fa-file"></i></a>
+
                         </div>
                     </div>
+                    <br></br>
+                    <div className="col-lg-12 copyright">
+                   Copyright © 2018 Rodantny J. Reyes
+                    </div>
+                    </div>
                 </div>
-                <br></br>
-                Rodantny J. Reyes 2018
             </div>
 
         )
