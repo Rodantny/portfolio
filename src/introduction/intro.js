@@ -2,15 +2,19 @@ import {Component} from "react";
 import React from "react";
 import './intro.css';
 
+let name = 'Rodantny Reyes'
+let line1 = 'Software Engineer'
+let line2 = 'Greater New York City Area'
+
 class intro extends Component {
     render() {
         return (
             <div className="intro" >
 
                 <img class="img-fluid rounded-circle img-circle" src="/images/me.jpg" alt='Rod'/><br></br>
-                <a id="MyName">Rodantny J. Reyes</a><br></br>
-                <a>Software Engineer</a><br></br>
-                <a> Greater New York City Area</a>
+                <a id="MyName">{name}</a><br></br>
+                <a>{line1}</a><br></br>
+                <a> {line2}</a>
 
                 <div className="icons">
                         <a href="https://www.linkedin.com/in/rodantny/"><i className="fab fa-linkedin-square" ></i></a>

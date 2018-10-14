@@ -40,16 +40,6 @@
         {"title":"View Project","icon":"fas fa-link", "url":"http://hexadecimalconverter.com/"},
         {"title":"View Code","icon":"fab fa-github", "url":"https://github.com/Rodantny/HexBinDec"}
       ]
-    },
-    {
-      "id": 3,
-      "url": "/images/project/wpu.jpg",
-      "selected": false,
-      "title": "Professional Experience",
-      "description": ["Coming Soon..."],
-      "technology": [ ],
-      "techology_split": false,
-      "external_link":[]
     }
   ]
 }

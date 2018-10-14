@@ -5,7 +5,7 @@ import './menu.css';
 class menu extends Component {
     render() {
         return (
-            <div className="navi">
+            <div className="navi links">
                 <div className="sand_bar"><a> <i className="fas fa-bars"></i></a></div>
                 <div className="links">
                     <a target="_blank"  rel="noopener noreferrer"
