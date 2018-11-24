@@ -11,7 +11,7 @@
       "fontend":[ "ReactJs", "HTML/CSS", "Bootstrap Framework"],
       "backend":[ "Python", "Django Framework","PostgreSQL", "RESTapi" ],
       "external_link":[
-        {"title":"View Project","icon":"fas fa-link", "url":"http://wpushuttle.com/"},
+        {"title":"View Project","icon":"fas fa-link", "url":"http://www.wpushuttle.com/"},
         {"title":"View Code","icon":"fab fa-github", "url":"https://github.com/Rodantny/wpushuttle"}
       ]
     },
@@ -24,7 +24,7 @@
       "technology": [ "ReactJs", "HTML/CSS"],
       "techology_split": false,
       "external_link":[
-        {"title":"View Project","icon":"fas fa-link", "url":"http://rodantnyreyes.com/"},
+        {"title":"View Project","icon":"fas fa-link", "url":"http://www.rodantnyreyes.com/"},
         {"title":"View Code","icon":"fab fa-github", "url":"https://github.com/Rodantny/portfolio"}
       ]
     },
@@ -37,7 +37,7 @@
       "technology": [ "JavaScript", "HTML/CSS"],
       "techology_split": false,
       "external_link":[
-        {"title":"View Project","icon":"fas fa-link", "url":"http://hexadecimalconverter.com/"},
+        {"title":"View Project","icon":"fas fa-link", "url":"http://hexa.rodantnyreyes.com//"},
         {"title":"View Code","icon":"fab fa-github", "url":"https://github.com/Rodantny/HexBinDec"}
       ]
     }

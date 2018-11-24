@@ -21,7 +21,7 @@ class about extends Component {
                             Passionate software developer with a wide array of experience including React, JavaScript, Python,
                             Django, HTML/CSS, Bootstrap, C++, and more!
                         </a><br/><br/>
-                        <a><b>Current Status:</b> I currently work as the <i>Building Operations Coordinator</i> at William Paterson University. At this job, I help coordinate several campus building operations. I also create several in-house software that help facilitate these operations.</a><br/>
+                        <a><b>Current Status:</b> I currently work as the <i>Building Operations Coordinator</i> at William Paterson University. At this job, I help coordinate several campus building operations. Currently open to new opportunities!</a><br/>
                         <br/>
 
                         <a id="about_title" id='contact'><b>Contact Me</b></a><br/>
