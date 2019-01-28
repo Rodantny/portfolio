@@ -2,8 +2,22 @@
   "array": [
     {
       "id": 0,
-      "url": "/images/project/shuttle.jpg",
+      "url": "/images/project/note.jpg",
       "selected": true,
+      "title": "Dashed Note",
+      "description": [ "A simple, clean and colorful note-taking application that allows user to create, update, and delete online notes."],
+      "technology": [ ],
+      "techology_split": true,
+      "fontend":[ "ReactJs", "SASS", "Bootstrap Framework"],
+      "backend":[  "RESTapi", "Python", "Django Framework","PostgreSQL" ],
+      "external_link":[
+        {"title":"View Project","icon":"fas fa-link", "url":"http://www.dashednote.com/"}
+      ]
+    },
+    {
+      "id": 1,
+      "url": "/images/project/shuttle.jpg",
+      "selected": false,
       "title": "Where's the Shuttle?",
       "description": [ "Where's the Shuttle is a web application that allows William Paterson University students track the current location of all four campus shuttle buses.", "Click View Code learn more about this project."],
       "technology": [ ],
@@ -16,7 +30,7 @@
       ]
     },
     {
-      "id": 1,
+      "id": 2,
       "url": "/images/project/portfolio.jpg",
       "selected": false,
       "title": "Online Portfolio",
@@ -29,7 +43,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 3,
       "url": "/images/project/hexbindec.jpg",
       "selected": false,
       "title": "HexBinDec",
