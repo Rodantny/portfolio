@@ -11,7 +11,7 @@
       "fontend":[ "ReactJs", "SASS", "Bootstrap Framework"],
       "backend":[  "RESTapi", "Python", "Django Framework","PostgreSQL" ],
       "external_link":[
-        {"title":"View Project","icon":"fas fa-link", "url":"http://www.dashednote.com/"}
+        {"title":"View Project","icon":"fas fa-link", "url":"https://www.dashednote.com/"}
       ]
     },
     {
@@ -25,7 +25,7 @@
       "fontend":[ "ReactJs", "HTML/CSS", "Bootstrap Framework"],
       "backend":[ "Python", "Django Framework","PostgreSQL", "RESTapi" ],
       "external_link":[
-        {"title":"View Project","icon":"fas fa-link", "url":"http://www.wpushuttle.com/"},
+        {"title":"View Project","icon":"fas fa-link", "url":"https://www.wpushuttle.com/"},
         {"title":"View Code","icon":"fab fa-github", "url":"https://github.com/Rodantny/wpushuttle"}
       ]
     },

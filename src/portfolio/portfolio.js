@@ -33,11 +33,8 @@ class portfolio extends Component {
                     <div className="zig-zag-bottom zig-zag-top"  >
                         <div className="container">
                             <Navigation data={this.state.project}/>
-
                         </div>
-
                     </div>
-
             </div>
 
         )

@@ -6,8 +6,6 @@ import Portfolio from './portfolio/portfolio.js'
 import PortfolioMobile from './portfolio/portfolio_mobile.js'
 import About from './about/about.js'
 
-
-
 class App extends Component {
   render() {
     return (
