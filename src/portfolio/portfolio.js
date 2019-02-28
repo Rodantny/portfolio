@@ -72,7 +72,7 @@ class Navigation extends Component {
 
         return (
             <div>
-                <div className="row" id="project_select">
+                <div  className='row animated fadeIn delay-2s'  id="project_select">
                     {this.state.data.map((data,i) => (
                         <div className="col-md-3 col-sm-6 mb-4">
 
@@ -91,7 +91,7 @@ class Navigation extends Component {
 
                 </div>
 
-                <div id='project_details'>
+                <div className='animated fadeIn delay-2s' id='project_details'>
                     <h1><b>{project.title}</b></h1>
 
                     <Description data={project.description}/>

@@ -71,7 +71,7 @@ class Navigation extends Component {
 
     render() {
         return (
-            <div>
+            <div className='animated fadeIn delay-2s'   >
                 {this.state.data.map((project,i) => (
                     <div>
                         <h1><b>{project.title}</b></h1>

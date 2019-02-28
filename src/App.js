@@ -10,26 +10,25 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+          <div className=' animated fadeIn delay-2s'>
+             <div className="line"></div>
+              <div className="container">
+                  <Menu />
+                  <Intro />
+             </div>
 
-          <div className="line"></div>
-
-          <div className="container">
-            <Menu />
-            <Intro />
+              <div id="portfolio"> </div>
           </div>
-
-          <div id="portfolio"> </div>
-
-          <div  id="desktop">
+          <div  id="desktop" className='animated bounceInDown slow'>
               <Portfolio/>
           </div>
 
-          <div id="mobile" >
+          <div id="mobile" className=' animated bounceInDown slow'>
               <PortfolioMobile/>
           </div>
 
 
-          <div id="about"> </div><About/>
+          <div id="about" className=' animated fadeIn delay-2s'><About/> </div>
       </div>
     );
   }
