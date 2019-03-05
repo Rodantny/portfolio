@@ -10,7 +10,7 @@ class about extends Component {
 
                     <div className="row no-gutters">
                     <div class="col-auto" >
-                        <img id='about_image' src='/images/me.png' />
+                        <img id='about_image' alt='Rodantny Reyes' src='/images/me.png' />
                     </div>
                     <div className="col about_text">
 
@@ -24,7 +24,8 @@ class about extends Component {
                         <a><b>Current Status:</b> I currently work as the <i>Building Operations Coordinator</i> at William Paterson University. At this job, I help coordinate several campus building operations. Currently open to new opportunities!</a><br/>
                         <br/>
 
-                        <a id="about_title" id='contact'><b>Contact Me</b></a><br/>
+                        <a id='contact'><b>Contact Me</b></a><br/>
+
                         <a> Looking to get in contact with me? Click on one of the awesome icons below to get my Email, Linkedin, Github, and even my Resume.</a><br/>
                         <div className="icons">
                             <a href="mailto:rodantnyreyes@gmail.com"><i className="fas fa-envelope"></i></a>
