@@ -18,4 +18,4 @@ COPY . ./
 
 # start app
 CMD ["npm", "start"]
-EXPOSE 2222 80 3001
+EXPOSE 2222 80 3000
