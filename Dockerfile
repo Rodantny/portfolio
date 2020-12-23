@@ -1,3 +1,5 @@
+EXPOSE 2222 80 3000
+
 # pull official base image
 FROM node:13.12.0-alpine
 
@@ -18,4 +20,4 @@ COPY . ./
 
 # start app
 CMD ["npm", "start"]
-EXPOSE 2222 80 3000
+
